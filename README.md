@@ -2,6 +2,14 @@
 
 Template de Ejemplo Api en node.js conexion con MongoDB Atlas
 
+## Installation
+
+Install my-project with npm
+
+```bash
+  npm install 
+  cd sample-api
+```
 
 ## API Reference
 
