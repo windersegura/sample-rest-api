@@ -1,8 +1,9 @@
 const express = require('express')
-const { getSample } = require('../controllers/sampleController')
+const { findAll, create } = require('../controllers/sample.controller')
 
 const router = express.Router()
 
-router.get('/', getSample)
+router.get('/', findAll)
+router.post('/creteSample', create)
 
 module.exports = router

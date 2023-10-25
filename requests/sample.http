@@ -1,0 +1,9 @@
+### Para crear un saple
+POST http://localhost:1234/api/sample
+Content-Type: application/json
+
+{
+    "title": "Sample 1",
+    "description": "A sample description",
+    "published" : true
+}
